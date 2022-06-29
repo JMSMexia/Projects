@@ -1,0 +1,109 @@
+body {
+    background-color: rgba(49, 110, 73, 0.5);
+    font-family: 'Roboto Mono', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    background-color: rgba(191, 11, 40);
+    width: 100%;
+    min-height: 50px;
+    max-height: auto;
+    top: 0;
+    left: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    border-radius: 5%; 
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+thead {
+    background-color: rgb(120, 120, 14);
+}
+
+
+table, th, td  {
+    border: 2px solid;
+}
+
+th, td {
+    padding: 10px;
+}
+
+td { 
+    background-color: gainsboro;
+}
+
+h2 {
+
+    background-color: rgb(3, 52, 52);
+    color: rgb(211, 242, 232);
+    width: 100%;
+    left: 0px;
+    padding-left: 10px;
+}
+
+p {
+    margin-left: 5px;
+}
+
+footer {
+    position: relative;
+    background-color: beige;
+    width: 100%;
+    left: 0px;
+    padding-top: 5px;
+}
+
+footer img {
+    padding-top: 10px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+footer p {
+    display: inline-block;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color:yellow;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#CSS_selectors a {
+    color: green;
+}
+
+
+#CSS_properties a {
+    color: green;
+}
